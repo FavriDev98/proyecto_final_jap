@@ -1,4 +1,5 @@
 body {
+    height: 100vh;
     background-image:linear-gradient(to bottom, #888888, #000000);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
