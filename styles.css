@@ -44,3 +44,27 @@ p {
 p:hover {
     font-size: 20px;
 }
+ 
+/* separacion entre boton y parrafo */
+.margin{
+    margin: 10 0;
+}
+
+/* Estilos del botón */
+.button{
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #3b5998;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.2s ease;
+}
+
+.button:hover {
+    background-color: #2d4373;
+}
