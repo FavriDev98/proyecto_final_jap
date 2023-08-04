@@ -2,10 +2,24 @@ body {
     background-image:linear-gradient(to bottom, #888888, #000000);
 }
 
+.title {
+    color: white;
+    text-align: center;
+}
+
 .image{
-    border: 5px solid green;
-    border-radius: 10px;
+    display: block;
+    margin: auto;
+    box-shadow: 30px 15px 10px 15px rgba(0, 0, 0, 0.2) ;
+    border-radius: 25px;
     height: 400px;
+    transition: .2s;
+}
+
+.image:hover {
+    cursor:pointer;
+    border: 8px solid rgba(245, 245, 245, 0.5);
+    filter: contrast(110%) brightness(110%);
 }
 
 .link-button {
