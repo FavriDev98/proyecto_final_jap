@@ -2,6 +2,11 @@ body {
     background-color: rgb(255, 255, 165);
 }
 
+.title {
+    color: white;
+    text-align: center;
+}
+
 .image{
     border: 5px solid green;
     border-radius: 10px;
